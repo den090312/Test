@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3-WriteSingleWordsFromString", "Task3-WriteSingleWordsFromString\Task3-WriteSingleWordsFromString.csproj", "{DDF1434B-D38F-46EE-B338-2442C13118DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF1434B-D38F-46EE-B338-2442C13118DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF1434B-D38F-46EE-B338-2442C13118DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF1434B-D38F-46EE-B338-2442C13118DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF1434B-D38F-46EE-B338-2442C13118DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C00052FD-EE2A-4274-B3E2-4DCE7F851D75}
+	EndGlobalSection
+EndGlobal

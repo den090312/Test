@@ -1,0 +1,11 @@
+C:\Users\Den\source\repos\Task5-CorrectBracketSequence\Task5-CorrectBracketSequence\bin\Debug\netcoreapp2.1\Task5-CorrectBracketSequence.deps.json
+C:\Users\Den\source\repos\Task5-CorrectBracketSequence\Task5-CorrectBracketSequence\bin\Debug\netcoreapp2.1\Task5-CorrectBracketSequence.runtimeconfig.json
+C:\Users\Den\source\repos\Task5-CorrectBracketSequence\Task5-CorrectBracketSequence\bin\Debug\netcoreapp2.1\Task5-CorrectBracketSequence.runtimeconfig.dev.json
+C:\Users\Den\source\repos\Task5-CorrectBracketSequence\Task5-CorrectBracketSequence\bin\Debug\netcoreapp2.1\Task5-CorrectBracketSequence.dll
+C:\Users\Den\source\repos\Task5-CorrectBracketSequence\Task5-CorrectBracketSequence\bin\Debug\netcoreapp2.1\Task5-CorrectBracketSequence.pdb
+C:\Users\Den\source\repos\Task5-CorrectBracketSequence\Task5-CorrectBracketSequence\obj\Debug\netcoreapp2.1\Task5-CorrectBracketSequence.csprojAssemblyReference.cache
+C:\Users\Den\source\repos\Task5-CorrectBracketSequence\Task5-CorrectBracketSequence\obj\Debug\netcoreapp2.1\Task5-CorrectBracketSequence.csproj.CoreCompileInputs.cache
+C:\Users\Den\source\repos\Task5-CorrectBracketSequence\Task5-CorrectBracketSequence\obj\Debug\netcoreapp2.1\Task5-CorrectBracketSequence.AssemblyInfoInputs.cache
+C:\Users\Den\source\repos\Task5-CorrectBracketSequence\Task5-CorrectBracketSequence\obj\Debug\netcoreapp2.1\Task5-CorrectBracketSequence.AssemblyInfo.cs
+C:\Users\Den\source\repos\Task5-CorrectBracketSequence\Task5-CorrectBracketSequence\obj\Debug\netcoreapp2.1\Task5-CorrectBracketSequence.dll
+C:\Users\Den\source\repos\Task5-CorrectBracketSequence\Task5-CorrectBracketSequence\obj\Debug\netcoreapp2.1\Task5-CorrectBracketSequence.pdb
