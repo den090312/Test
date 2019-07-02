@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +15,7 @@ namespace Task3_WriteSingleWordsFromString
             StringBuilder sb = new StringBuilder(Console.ReadLine());
 
             //удаление знаков препинания функцией Replace()
-            RemoveAllPunctuationMarks(sb);
+            sb = RemoveAllPunctuationMarks(sb);
 
             //удаление знаков препинания с помощью регулярного выражения (работает медленно)
             //string sb = Regex.Replace(defaultString, "[-.?!)(,:\"«»<>]", "");
@@ -29,31 +29,18 @@ namespace Task3_WriteSingleWordsFromString
             { if (!string.IsNullOrEmpty(el) && wordsArray.Count(x => x == el) == 1) { Console.WriteLine(el); } }*/
 
             //вывод слов, которые встречаются только один раз, без Linq
-            WriteSingleWords(GetSingleWords(sb.ToString().Split(" ")));
+            WriteSingleWords(GetSingleWords(sb.ToString().Split(' ')));
         }
 
-        static void RemoveAllPunctuationMarks(StringBuilder sb)
+        static StringBuilder RemoveAllPunctuationMarks(StringBuilder sb)
         {
-            sb.Replace(".", "");
-            sb.Replace(",", "");
-            sb.Replace(":", "");
-            sb.Replace(";", "");
-            sb.Replace("!", "");
-            sb.Replace("?", "");
-            sb.Replace("'", "");
-            sb.Replace("-", "");
-            sb.Replace("—", "");
-            sb.Replace("{", "");
-            sb.Replace("}", "");
-            sb.Replace("[", "");
-            sb.Replace("]", "");
-            sb.Replace("(", "");
-            sb.Replace(")", "");
-            sb.Replace("«", "");
-            sb.Replace("»", "");
-            sb.Replace("<", "");
-            sb.Replace(">", "");
-            sb.Replace("\"", "");
+            string[] punctuationMarks = { ".", ",", ":", ";", "!", "?", "'", "-", "—", "{", "}", "[", "]", "(", ")", "«", "»", "<", ">", "\"" };
+            for (int i = 0; i <= punctuationMarks.Length - 1; i++)
+            {
+                sb.Replace(punctuationMarks[i], "");
+            }
+
+            return sb;
         }
 
         static List<string> GetSingleWords(string[] wordsArray)
